@@ -2,7 +2,7 @@ name: Run Stock Alert Bot
 
 on:
   schedule:
-    - cron: '0 */5 * * *'  # Every 5 hours
+    - cron: '0 */10 * * *'  # Every 5 hours
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
