@@ -7,9 +7,9 @@ from email.mime.multipart import MIMEMultipart
 
 # Stocks to monitor and their price thresholds
 STOCKS = {
-    "NVDA": 170,   # Notify if NVIDIA drops below $110
-    "TSLA": 334,
-    "AAPL": 215
+    "NVDA": 100,   # Notify if NVIDIA drops below $110
+    "TSLA": 112,
+    "AAPL": 98
 }
 
 # Email credentials and recipient
